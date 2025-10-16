@@ -1,0 +1,9 @@
+flask
+flask-cors
+requests
+transformers>=4.44.0
+torch
+cryptography
+
+firebase-admin
+google-cloud-firestore
