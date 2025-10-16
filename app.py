@@ -21,7 +21,7 @@ load_dotenv()
 # ── ENV
 PORT = int(os.getenv("PORT", "5000"))
 ENCRYPTION_KEY = os.getenv("ENCRYPTION_KEY")
-SERVICE_ACCOUNT_PATH = os.getenv("GOOGLE_APPLICATION_CREDENTIALS", "serviceAccountKey.json")
+SERVICE_ACCOUNT_PATH = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "phi3:mini")  # ✅ Change to qwen2.5:3b-instruct if you want
 
